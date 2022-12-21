@@ -1,0 +1,13 @@
+
+  .element {
+  &::after {
+    content: "";
+    position: absolute;
+
+    height: 115px;
+    width: 132px;
+
+    background-image: url("./../img/background/element.svg");
+    //background-repeat: no-repeat;
+  }
+}

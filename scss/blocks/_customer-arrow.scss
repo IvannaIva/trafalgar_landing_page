@@ -1,0 +1,37 @@
+.customer__arrow {
+  padding-top: 40px;
+  width: 336px;
+  height: 20px;
+
+
+  margin: 0 auto;
+}
+
+.arrow_slider {
+  
+
+  ul {
+  
+    display: inline-flex;
+
+
+    li:first-child {
+      margin-right: 90px;
+    }
+    li:last-child {
+      margin-left: 90px;
+    }
+  }
+  li:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  a {
+    color: #5b9bf3;
+    opacity: 0.3;
+
+    &.active_slider {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.button {
+  display: inline;
+  height: 60px;
+  width: 200px;
+
+  border-radius: 55px;
+  background: $accent-color;
+
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  transition: background-color 0.1s linear;
+
+  &:hover {
+    background-color: $accent-color-hover;
+  }
+
+
+  &--white {
+
+    background-color: #ffffff;
+    color: $accent-color;
+    border: 1.4px solid $accent-color;
+
+    &:hover {
+
+      background-color: #e5e9f666;
+    }
+  }
+}

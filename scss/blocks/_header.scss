@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+  &::after {
+    left: -50px;
+    top: 0px;
+  }
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  height: 112px;
+  width: 427px;
+
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.header__text p {
+  height: 96px;
+  width: 445px;
+
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 45px;
+  color: $description-color;
+}
+
+.header__img {
+  height: 598px;
+  width: 693px;
+}

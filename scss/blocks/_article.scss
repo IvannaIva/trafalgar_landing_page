@@ -1,0 +1,27 @@
+.article {
+  padding-top: 6px;
+  padding-bottom: 129px;
+}
+
+.article__headeing {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.article-title {
+  margin-bottom: 26px;
+}
+
+.article__row {
+  display: flex;
+  column-gap: 35px;
+
+  margin-left: 50px;
+  margin-right: 50px;
+
+  position: relative;
+  &::after {
+    left: -49px;
+    top: -39px;
+  }
+
+}

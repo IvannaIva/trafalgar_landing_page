@@ -1,0 +1,51 @@
+.download-apps {
+
+   left: 90px;
+
+
+  padding-top: 115px;
+  padding-bottom: 133px;
+  max-width: 1273px;
+  margin: 0 auto;
+
+  position: relative;
+  &::after {
+    right: -45px;
+    bottom: 665px;
+  }
+
+}
+
+.download-apps__row {
+// padding-top: 115px;
+//   padding-bottom: 133px;
+//      max-width: 1273px;
+//   margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+
+
+}
+.download-apps__row__text {
+ 
+  height: 375px;
+  width: 420px;
+
+  & p {
+    margin-top: 31px;
+    margin-bottom: 40px;
+    width: 420px;
+  }
+}
+.download-apps__title {
+  width: 254px;
+
+  margin-bottom: 30px;
+}
+
+.download-apps__img {
+  padding-left: 71px;
+  height: 434px;
+  width: 665px;
+}

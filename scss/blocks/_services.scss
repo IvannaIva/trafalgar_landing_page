@@ -1,0 +1,40 @@
+.services {
+  padding-top: 80px;
+  padding-bottom: 110px;
+  //background-image: url("../../img/background/Vector.svg");
+  //background: no-repeat url("../../img/background/Vector.svg");
+
+
+}
+
+.services__heading {
+  margin-bottom: 80px;
+  text-align: center;
+
+  .title {
+    margin-bottom: 26px;
+  }
+}
+
+
+.services__heading p {
+  height: 60px;
+  width: 952px;
+  display: inline-block;
+  margin-top: 33px;
+}
+
+.services__row {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+
+.button-center{
+  text-align: center;
+}

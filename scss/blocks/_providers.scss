@@ -1,0 +1,35 @@
+.providers {
+  padding-top: 110px;
+  padding-bottom: 115px;
+  // padding-left: 135px;
+  max-width: 1273px;
+  margin: 0 auto;
+}
+
+.providers__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.providers__img {
+  height: 477px;
+  width: 650px;
+}
+.providers__row__text {
+
+  padding-left: 142px;
+ 
+
+  & p {
+   
+
+    margin-top: 31px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+  }
+
+}
+
+.providers__title {
+  margin-bottom: 26px;
+}

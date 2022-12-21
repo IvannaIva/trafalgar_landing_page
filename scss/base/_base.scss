@@ -1,0 +1,21 @@
+html,
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  max-width: 1630px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.title{
+  color: $title-color;
+}
+
+.subtitle {
+  line-height: 30px;
+  color: $description-color;
+}

@@ -1,0 +1,21 @@
+.rectangle {
+  //position: absolute;
+  width: 56px;
+  height: 2px;
+
+  background: #000000;
+  border-radius: $bor-radius;
+
+  margin: 0 auto;
+
+  &--white{
+    background: $color-white;
+  }
+
+  &--left{
+  margin-left: 0;
+
+  }
+
+}
+

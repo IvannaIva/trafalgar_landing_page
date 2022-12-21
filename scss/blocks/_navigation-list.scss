@@ -1,0 +1,30 @@
+.navigation-list {
+  ul {
+    display: flex;
+  }
+  li:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  a {
+    //55min
+    color: #1f1534;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+
+    &:hover {
+      // font-style: Bold;
+      // opacity: 0.5;
+      //color: #561ad6;
+    }
+    &.active {
+      font-size: 18px;
+      line-height: 23px;
+      opacity: 1;
+      //  color: #6a36db;
+      font-weight: 700px;
+    }
+  }
+}
